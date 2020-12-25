@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title> Portfolio Website </title>
+<meta name="author" content="Sejal Kshirsagar">
+<meta name="description" content="Project 1: HTML Project (Barebones Portfolio)">
+</head>
+<body>
+    <header>
+        <h1><div class="head1">Hello! I am Full Name</div></h1>
+        <h3><div class="head2">Current Title</div></h3>
+    </header>
+
+    <div class = "body_sec"> 
+        <section id="AboutMe"> 
+            <h4>ABOUT ME :</h4>
+            <img src="profile_pic.jpg" alt="Profile Picture" width="500" height="600">
+            <p>.............................</p>
+            <p>.............................</p>
+        </section><br> 
+
+        <section id="LatestWork">
+            <h4>LATEST WORK :</h4>
+            <ul>
+                <li>Project Name</li>
+                <video width="320" height="240" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                </video>
+                <p><i>Overview - </i></p>
+                <p>...............................</p>
+                <p>...............................</p>
+            </ul>
+        </section><br>
+
+        <section id="OtherWorks">
+            <h4>OTHER WORKS :</h4>
+                <table border="2">
+                    <tr><th> index</th><th> Project Name</th><th> Description</th><th> link to project</th></tr>
+                    <tr><td>1</td><td> Project1 name</td><td><p>..................</p></td><td><a href="https://link-to-Project_1">Project1</a></td></tr>
+                    <tr><td>2</td><td> Project2 name</td><td><p>..................</p></td><td><a href="https://link-to-Project_2">Project2</a></td></tr>
+                    <tr><td>3</td><td> Project3 name</td><td><p>..................</p></td><td><a href="https://link-to-Project_3">Project3</a></td></tr>
+                    <tr><td>4</td><td> Project4 name</td><td><p>..................</p></td><td><a href="https://link-to-Project_4">Project4</a></td></tr>
+                </table>
+        </section><br>
+
+        <section id="OtherWorks">
+            <h4>CONTACT ME :</h4>
+                <form action="/action_page.php">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="emailid">Email id:</label>
+                    <input type="email" id="emailid" name="emailid"><br><br>
+                    <label for="telnum">Phone no:</label>
+                    <input type="tel" id="telnum" name="telnum"><br><br>
+                    <label for="msg">Message:</label>
+                    <input type="text" id="msg" name="msg"><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+        </section>
+    </div><br><br> 
+
+<footer>
+    <p>Full Name</p>
+    <p><a href="mailto:name@example.com">Email</a><br>
+        <a href="#linkedin-profile-link">Linkedin</a><br>
+        <a href="#Blog-link">Blog</a>
+    </p>
+</footer>
+</body>
+</html>
